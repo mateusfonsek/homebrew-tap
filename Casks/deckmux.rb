@@ -1,8 +1,8 @@
 cask "deckmux" do
-  version "0.2.0"
-  sha256 "073e18a06193a4362b7c9f901aba82fae0322fd40a694ed56228e9a4f0c60a17"
+  version "0.3.0"
+  sha256 "52d1a915a033b8dde62a4d216b6342481100537df6b987f0247d564949b8f55f"
 
-  url "https://github.com/mateusfonsek/deckmux/releases/download/v#{version}/Deckmux-#{version}-arm64.dmg"
+  url "https://github.com/mateusfonsek/deckmux/releases/download/v#{version}/Deckmux-#{version}-universal.dmg"
   name "Deckmux"
   desc "Command center for Claude Code with libghostty terminals by workspace"
   homepage "https://github.com/mateusfonsek/deckmux"
@@ -12,7 +12,6 @@ cask "deckmux" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on macos: :sonoma
 
   app "Deckmux.app"

@@ -1,8 +1,8 @@
 cask "finoinc" do
-  version "0.13.0"
-  sha256 "71df4f2a561ed81f6bea309031367463e9578f002c540d00ab77d7aaf74d7c0a"
+  version "0.13.1"
+  sha256 "854f1c7f52f8c2ea1e3054a728d0483f8f60aa237def48f5d6a4bb0fece14db4"
 
-  url "https://github.com/MateusFonseK/finoinc/releases/download/v#{version}/Finoinc_#{version}_universal.dmg"
+  url "https://github.com/MateusFonseK/finoinc/releases/download/v#{version}/Finoinc_universal.dmg"
   name "Finoinc"
   desc "Personal finance that never leaves your computer"
   homepage "https://github.com/MateusFonseK/finoinc"

@@ -1,6 +1,6 @@
 cask "finoinc" do
-  version "0.14.1"
-  sha256 "9308c3f491f2d21fc1040db65f206ee616eb9cb06c96be6f0e1a2601fffcf0cc"
+  version "0.15.0"
+  sha256 "a83c5ca405817ad8ffeccfc424d0b81011684cdcd1a648a5e88e3d9026ce6c07"
 
   url "https://github.com/MateusFonseK/finoinc/releases/download/v#{version}/Finoinc_universal.dmg"
   name "Finoinc"

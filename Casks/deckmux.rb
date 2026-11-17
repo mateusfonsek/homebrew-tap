@@ -1,6 +1,6 @@
 cask "deckmux" do
-  version "0.5.1"
-  sha256 "6ae9cc609c05c38990715a693f6e2beb7158c47ccbd77fb60b83ca09998a7a06"
+  version "0.6.0"
+  sha256 "9e43b6eefef72ca8b3e36d72d5987d5244418317d213eae2b3c4f0c27a8da980"
 
   url "https://github.com/mateusfonsek/deckmux/releases/download/v#{version}/Deckmux-#{version}-universal.dmg"
   name "Deckmux"
